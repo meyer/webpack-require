@@ -1,24 +1,28 @@
 {
   "name": "webpack-require",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "",
   "main": "lib/webpackRequire.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "jest --verbose",
+    "prettier":
+      "prettier --single-quote --trailing-comma es5 --write '{lib,spec,spec/app}/*.js'"
   },
-  "author": "",
+  "author": "Pete Hunt",
   "license": "ISC",
   "dependencies": {
     "invariant": "^2.1.0",
-    "memory-fs": "^0.2.0",
-    "object-assign": "^3.0.0",
-    "path-is-absolute": "^1.0.0",
+    "memory-fs": "^0.4.1",
     "source-map": "^0.4.4",
-    "webpack": "^1.11.0"
+    "webpack": "^3.2.0"
   },
   "devDependencies": {
-    "file-loader": "^0.8.4",
-    "jasmine": "^2.3.2",
+    "eslint": "^4.5.0",
+    "eslint-plugin-jest": "^20.0.3",
+    "eslint-plugin-node": "^5.1.1",
+    "file-loader": "^0.11.2",
+    "jest": "^20.0.4",
+    "prettier": "^1.6.1",
     "url-loader": "^0.5.6"
   }
 }

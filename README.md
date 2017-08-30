@@ -9,7 +9,7 @@ loaders server-side in Node.js.
 ## How to use it
 
 ```js
-var webpackRequire = require('webpack-require');
+const webpackRequire = require('webpack-require');
 
 webpackRequire(
   require('./path/to/webpack.config.js'),
@@ -24,7 +24,7 @@ webpackRequire(
     // of your module (useful for multiple requests in a single process).
     // Note that this is fairly performant, since the file is only parsed
     // once even if you call factory() multiple times.
-    var yourmodule = factory();
+    const yourmodule = factory();
 
     // You can inspect the build process by looking at the stats object
 

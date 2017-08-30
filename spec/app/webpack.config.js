@@ -6,8 +6,14 @@ module.exports = {
     path: 'build',
   },
   module: {
-    loaders: [
-      {test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192'}
-    ]
-  }
+    rules: [
+      {
+        test: /\.(png|jpg)$/,
+        loader: 'url-loader',
+        options: {
+          limit: 8192,
+        },
+      },
+    ],
+  },
 };
