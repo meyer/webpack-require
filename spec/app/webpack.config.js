@@ -1,5 +1,6 @@
 // webpack.config.js
 module.exports = {
+  mode: 'development',
   entry: './entrypoint.js',
   output: {
     filename: 'bundle.js',

@@ -5,24 +5,23 @@
   "main": "lib/webpackRequire.js",
   "scripts": {
     "test": "jest --verbose",
-    "prettier":
-      "prettier --single-quote --trailing-comma es5 --write '{lib,spec,spec/app}/*.js'"
+    "prettier": "prettier --single-quote --trailing-comma es5 --write '{lib,spec,spec/app}/*.js'"
   },
   "author": "Pete Hunt",
   "license": "ISC",
   "dependencies": {
-    "invariant": "^2.1.0",
+    "invariant": "^2.2.4",
     "memory-fs": "^0.4.1",
-    "source-map": "^0.4.4",
-    "webpack": "^3.2.0"
+    "source-map": "^0.7.2",
+    "webpack": "^4.1.1"
   },
   "devDependencies": {
-    "eslint": "^4.5.0",
-    "eslint-plugin-jest": "^20.0.3",
-    "eslint-plugin-node": "^5.1.1",
-    "file-loader": "^0.11.2",
-    "jest": "^20.0.4",
-    "prettier": "^1.6.1",
-    "url-loader": "^0.5.6"
+    "eslint": "^4.19.0",
+    "eslint-plugin-jest": "^21.15.0",
+    "eslint-plugin-node": "^6.0.1",
+    "file-loader": "^1.1.11",
+    "jest": "^22.4.2",
+    "prettier": "^1.11.1",
+    "url-loader": "^1.0.1"
   }
 }
